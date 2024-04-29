@@ -1,2 +1,2 @@
-from brainExtract import files
+from clustering import files
 files()
