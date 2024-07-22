@@ -4,8 +4,8 @@ Project Overview
 These projects collectively aim to automate the processing of rs-fMRI data to facilitate various analyses:
 
 Brain Boundary Extraction: Automatically extract brain slices and their boundaries from spatial independent component images.
-Unsupervised Cluster Detection: Apply clustering techniques to detect and count significant clusters in the extracted brain slices.
-Supervised Classification of IC Images: Classify IC images as Noise or Resting State Network (RSN) using supervised machine learning techniques.
+Semi-supervised Cluster Detection: Apply clustering techniques to detect and count significant clusters in the extracted brain slices.(DBSCAN)
+Supervised Classification of IC Images: Classify IC images as Noise or Resting State Network (RSN) using supervised machine learning techniques.(VGG16 Deep learning model)
 
 Objectives
 Extract and identify brain boundaries and slices from spatial ICs.
